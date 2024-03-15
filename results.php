@@ -5,6 +5,11 @@ $paragrafo = $_GET['Paragraph'];
 
 $parola = $_GET['Word'];
 
+$lunghezza = strlen($paragrafo);
+
+ $paragrafo2 =  str_replace($parola,"www", $paragrafo);
+ $lunghezza2 = strlen($paragrafo2);
+
 ?>
 
 
@@ -21,6 +26,12 @@ $parola = $_GET['Word'];
 
 <div>Il paragrafo scritto è : <?php echo $paragrafo ?></div>
 <div>e la parola vietata è : <?php echo $parola?></div>
+<div>e la lunghezza del paragrafo è : <?php echo $lunghezza?></div>
+<div>Il secondo paragrafo scritto è : <?php echo $paragrafo2 ?></div>
+<div>e la lunghezza del secondo paragrafo è : <?php echo $lunghezza2?></div>
+
+<hr>
+
 
     
 </body>
