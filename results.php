@@ -19,18 +19,60 @@ $lunghezza = strlen($paragrafo);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> RESULTS </title>
+
+<!--inizio stile-->
+    <style>
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+
+body{
+ font-family:sans-serif;
+ font-size:20px;
+ background-color:lightblue;
+ display:flex;
+ justify-content: center;
+}
+
+.container{
+ margin-top:50px;
+ padding: 20px;
+ border: 1px solid black;
+ border-radius:5px;
+ background-color:lightpink;
+ display: flex;
+ flex-direction:column;
+ align-items: start;
+ gap:40px;
+}
+
+
+strong{
+    padding:10px;
+    background-color:lightblue;
+    color:white;
+    border: 1px solid lightpink;
+    border-radius:5px;
+}
+
+ </style>
+ <!--fine stile-->
+
 </head>
 <body>
 
-<h1>Risultati del form </h1>
 
-<div>Il paragrafo scritto è : <?php echo $paragrafo ?></div>
-<div>e la parola vietata è : <?php echo $parola?></div>
-<div>e la lunghezza del paragrafo è : <?php echo $lunghezza?></div>
-<div>Il secondo paragrafo scritto è : <?php echo $paragrafo2 ?></div>
-<div>e la lunghezza del secondo paragrafo è : <?php echo $lunghezza2?></div>
 
-<hr>
+<div class="container">
+<div>Il paragrafo scritto è : <strong><?php echo $paragrafo ?></strong></div>
+<div> La parola vietata è :  <strong><?php echo $parola?></strong></div>
+<div> La lunghezza del paragrafo è : <strong><?php echo $lunghezza?></strong></div>
+<div>Il secondo paragrafo scritto è : <strong><?php echo $paragrafo2 ?></strong></div>
+<div>La lunghezza del secondo paragrafo è : <strong><?php echo $lunghezza2?></strong></div>
+</div>
+
 
 
     

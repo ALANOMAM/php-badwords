@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FORM</title>
-    <style>
 
+<!--inizio stile-->
+    <style>
    *{
     margin:0;
     padding:0;
@@ -50,8 +51,9 @@
     border-radius:5px;
     border: 1px solid lightpink;
   }
-
     </style>
+ <!--fine stile-->
+ 
 </head>
 <body>
 
