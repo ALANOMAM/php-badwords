@@ -9,12 +9,17 @@
 
  <form action="results.php">
 
- <label for="">Inserisci il nome </label>   
- <input type="text" name="user-name" placeholder="nome">
+<div>
+ <label for="">Inserisci il paragrafo  </label>   
+ <textarea name="Paragraph" id="" cols="30" rows="10">
+ </textarea>
+</div>
 
- <label for="">Inserisci il nome </label>   
- <input type="number" name="user-age" placeholder="età">
-
+<div>
+ <label for="">Inserisci la parola da censurare </label>   
+ <input type="text" name="Word" placeholder="word">
+ </div>
+ 
  <input type="submit">
 
 
