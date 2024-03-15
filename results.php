@@ -1,9 +1,9 @@
 
 <?php 
 
-$name = $_GET['user-name'];
+$paragrafo = $_GET['Paragraph'];
 
-$age = $_GET['user-age'];
+$parola = $_GET['Word'];
 
 ?>
 
@@ -18,7 +18,10 @@ $age = $_GET['user-age'];
 <body>
 
 <h1>Risultati del form </h1>
-<p>Ciao, il tuo nome è <?php echo $name ?> e hai <?php echo $age?> anni </p>
+
+<div>Il paragrafo scritto è : <?php echo $paragrafo ?></div>
+<div>e la parola vietata è : <?php echo $parola?></div>
+
     
 </body>
 </html>
