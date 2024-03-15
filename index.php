@@ -1,3 +1,15 @@
+<?php
+
+$name = $_GET['nome'];
+     
+$age = $_GET['eta'];
+
+
+     
+    ?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,10 +18,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>hello</h2>
-
-    <?php
-     
-    ?>
+    <p> Ciao mi chiamo <?php  echo $name ?> e ho <?php echo $age ?> anni</p>  
 </body>
 </html>
