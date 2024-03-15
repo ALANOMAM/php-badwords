@@ -7,7 +7,7 @@ $parola = $_GET['Word'];
 
 $lunghezza = strlen($paragrafo);
 
- $paragrafo2 =  str_replace($parola,"www", $paragrafo);
+ $paragrafo2 =  str_replace($parola,"***", $paragrafo);
  $lunghezza2 = strlen($paragrafo2);
 
 ?>
